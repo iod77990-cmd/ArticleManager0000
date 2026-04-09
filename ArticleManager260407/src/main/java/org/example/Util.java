@@ -7,7 +7,7 @@ public class Util {
 
     public static String getNowStr() {
         LocalDateTime now = LocalDateTime.now();
-        String formattedNow = now.format(DateTimeFormatter.ofPattern("yyyy년 MM월 dd일 HH:mm:ss"));
+        String formattedNow = now.format(DateTimeFormatter.ofPattern("yyyy년 MM월dd일 HH:mm:ss"));
         return formattedNow;
     }
 }
